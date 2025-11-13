@@ -38,17 +38,16 @@
         }
 
         .corpo{
-            border: 1px solid red;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .card{
-            height: 200px;
-            border: 1px solid yellow;
+           border: 1px solid red;
+            
             
         }
-    </style>
+        
+        .formulario{
+            width: 400px;
+            border: 1px solid black;
+        }
+         </style>
 </head>
 <body>
 
@@ -76,6 +75,44 @@
     <hr>
 
     <main class="corpo">
+        <form class="formulario">
+            <div>
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" id="nome" placeholder="Nome">
+            </div>
+            <div>
+               <label for="e-mail">E-mail</label>
+               <br>
+               <input type="email" id="e-mail" placeholder="E-mail" >
+               
+            </div>
+            <div>
+                <label for="contato">Contato</label>
+                <br>
+                <input type="tel" id="contato" placeholder="Contato" required>
+            </div>
+            <div>
+                <label for="mensagem">Qual sua duvida ?</label>
+                <br>
+                <textarea id="mensagem" rows="10" cols="50" placeholder="Qual sua duvida?" required></textarea>
+            </div>
+            <button>Enviar</button>
+
+            
+            
+    
+    </form>
+
+
+
+            
+        </form>
+
+       
+  
+
+        
 
        
 
