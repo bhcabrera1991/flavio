@@ -39,13 +39,20 @@
 
         .corpo{
            border: 1px solid red;
+           justify-self: center;
             
             
         }
         
         .formulario{
-            width: 400px;
+            width: 800px;
             border: 1px solid black;
+            
+        }
+
+        input{
+            width: 500px;
+            height: 20px;
         }
          </style>
 </head>
@@ -79,12 +86,12 @@
             <div>
                 <label for="nome">Nome:</label>
                 <br>
-                <input type="text" id="nome" placeholder="Nome">
+                <input type="text" id="nome" placeholder="Nome"required>
             </div>
             <div>
-               <label for="e-mail">E-mail</label>
+               <label for="e_mail">E-mail</label>
                <br>
-               <input type="email" id="e-mail" placeholder="E-mail" >
+               <input type="email" id="e_mail" placeholder="E-mail" required >
                
             </div>
             <div>
@@ -93,7 +100,7 @@
                 <input type="tel" id="contato"  placeholder="Contato" required>
             </div>
             <div>
-                <label for="mensagem" id="recado">Qual sua duvida ?</label>
+                <label for="mensagem">Qual sua duvida ?</label>
                 <br>
                 <textarea id="mensagem" rows="10" cols="50" placeholder="Qual sua duvida?" required></textarea>
             </div>
