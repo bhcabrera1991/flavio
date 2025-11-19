@@ -1,4 +1,5 @@
-    .a{width: 50%;
+a{
+    width: 50%;
     padding: 4%;
     border: 2px solid #000;
     border-radius: 5px;
@@ -7,4 +8,17 @@
     color: white;
     background-color: #444;
     box-shadow: -3px 4px 0 #222, -5px 7px 0 #000;
-    }
+}
+
+a:hover{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #1913bb;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: rgb(239, 239, 10);
+    background-color: #444;
+    box-shadow: -3px 4px 0 #7f1f1f, -5px 7px 0 #bb1616;
+
+}
