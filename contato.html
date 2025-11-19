@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="style.css">
+    
       
     <style>
-
+        *{
+            margin: 0;
+            padding: 0;
+        }
         
         header{
             display: flex;
         }
         .logo{
-            border: 1px solid red;
+            /*border: 1px solid red;*/
             height: 150px;
             width: 50vh;
+            
         }
 
         .menu{
@@ -30,11 +36,9 @@
 
         ul{
             display: flex;
-           /* border: 1px solid black;*/
-            width: 300px;
-            
-            justify-content: space-evenly;
-              
+            border: 1px solid black;
+            width: 400px;
+            justify-content: space-between;            
         }
 
         .corpo{
@@ -61,15 +65,16 @@
 
     <header>
         <div class="logo">
-            <img src="img/logo.png" height="150px" alt="">
+            <img style="border-radius: 15px;" src="img/logo.jpg" height="150px" alt="">
 
         </div>
 
         <div class="menu">
             <ul>
                 <li>
-                    <a href="produtos.html">Produtos</a>
+                    <a href="produtos.html">Produtos<a>
                 </li>
+                
                 <li>
                     <a href="index.html">Inicio</a>
                 </li>
@@ -80,8 +85,7 @@
         </div>
 
     </header>
-    <hr>
-
+    
     <main class="corpo">
         <form class="formulario">
             <div>
